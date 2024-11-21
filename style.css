@@ -1,0 +1,52 @@
+/* Clock Container Styling */
+#clockContainer{
+    position: relative;
+    margin: auto;
+    height: 20vw;
+    width: 20vw;
+    background: url('analogclock.png') no-repeat;
+    background-size: 100%;
+    border-radius: 50%; /* Making the container circular */
+}
+
+/* Hand Styling */
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+    left: 50%;
+    transform: translateX(-50%); /* Center the hands */
+}
+
+/* Hour Hand (Yellow) */
+#hour{
+    width: 2%;
+    height: 20%;
+    left: 50.2%;
+    top: 30%;
+    background-color: black;
+
+    
+}
+
+/* Minute Hand (Blue) */
+#minute{
+    width: 2%;
+    height: 27%;
+    top: 23%;
+    left: 50.2%;
+    
+    background-color: black;
+
+    
+}    
+
+/* Second Hand (Black) */
+#second{
+    width: 2%;
+height: 32%;
+top: 18%;
+left: 50.2%;
+background-color: black;
+} 
